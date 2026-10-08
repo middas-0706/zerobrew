@@ -224,6 +224,7 @@ The difference is what happens after the download: Homebrew runs Ruby to evaluat
 This is a good read, if you're interested in what zerobrew is and isn't: [Standing on the shoulders of Homebrew](https://nesbitt.io/2026/04/14/standing-on-the-shoulders-of-homebrew.html) by Andrew Nesbitt. It makes the point better than I can.
 
 **nanobrew:**
+
 [nanobrew’s](https://github.com/justrach/nanobrew) published numbers time a “warm install” of a package that is already installed, which is an early exit, not an install, and compare against zerobrew 0.1.0. 
 
 Every number above is a real install from an uninstalled state, with the script and the full log in this repo, so you can run it yourself.
@@ -247,14 +248,14 @@ doing so.
 ## Project status
 
 <div align="center">
-  <a href="https://star-history.dera.page/#zerobrewhq/zerobrew&Date">
+  <a href="https://star-history.com/#zerobrewhq/zerobrew&Date">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=zerobrewhq/zerobrew&type=Date&theme=dark" />
-      <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=zerobrewhq/zerobrew&type=Date" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zerobrewhq/zerobrew&type=Date&theme=dark" />
+      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zerobrewhq/zerobrew&type=Date" />
     </picture>
   </a>
 </div>
 
-- **Status:** Experimental, but quite useful. I ([@cachebag](https://github.com/cachebag) daily drive it myself).
+- **Status:** Experimental, but quite useful. I ([@cachebag](https://github.com/cachebag)) daily drive it myself.
 - **Feedback:** If you hit incompatibilities, please open an issue or PR.
 - **License:** Dual-licensed under [Apache 2.0](./LICENSE-APACHE.md) OR [MIT](./LICENSE-MIT.md), at your choice.
