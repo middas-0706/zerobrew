@@ -223,6 +223,11 @@ The difference is what happens after the download: Homebrew runs Ruby to evaluat
 
 This is a good read, if you're interested in what zerobrew is and isn't: [Standing on the shoulders of Homebrew](https://nesbitt.io/2026/04/14/standing-on-the-shoulders-of-homebrew.html) by Andrew Nesbitt. It makes the point better than I can.
 
+**nanobrew:**
+[nanobrew’s](https://github.com/justrach/nanobrew) published numbers time a “warm install” of a package that is already installed, which is an early exit, not an install, and compare against zerobrew 0.1.0. 
+
+Every number above is a real install from an uninstalled state, with the script and the full log in this repo, so you can run it yourself.
+
 ## Relationship with Homebrew
 
 zerobrew is more of a performance-optimized client for the Homebrew ecosystem. We rely on:
